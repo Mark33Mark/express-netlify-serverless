@@ -1,0 +1,30 @@
+{
+  "name": "express-netlify-serverless",
+  "version": "0.0.1",
+  "description": "Exploring express server based on a lambda serverless service",
+  "main": "index.js",
+  "scripts": {
+    "start": "netlify-lambda serve src",
+    "build": "netlify-lambda build src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mark33Mark/express-netlify-serverless.git"
+  },
+  "keywords": [
+    "serverless",
+    "lamda",
+    "express"
+  ],
+  "author": "Mark Watson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mark33Mark/express-netlify-serverless/issues"
+  },
+  "homepage": "https://github.com/Mark33Mark/express-netlify-serverless#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "netlify-lambda": "^2.0.15",
+    "serverless-http": "^3.1.0"
+  }
+}
